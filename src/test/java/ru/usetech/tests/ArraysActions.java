@@ -19,39 +19,33 @@ import javax.xml.bind.SchemaOutputResolver;
 
 public class ArraysActions {
     public static void main (String args[]){
-        arraySringOrInt("strings");
+        arraySringOrInt("string");
+        arraySringOrInt("integer");
+        arraySringOrInt("string1");
 
     }
 
     public static void arraySringOrInt(String arraytype) {
-        int n = 100;
-        int i = 1, j = 1;
+        int n = 5;
+        int i = 0;
         String[] m = new String[n];
         int[] nums = new int[n];
 
         if (arraytype == "integer") {
-            while (i <= (n - 1)) {
-                nums[i] = ++j;
-                System.out.println("Array's element #" + i + " = " + nums[i]);
+            while (i < n) {
+                nums[i] = i;
+                System.out.println("Array's element #" + (i + 1) + " = " + (nums[i] + 1));
                 ++i;
-                ++j;
             }
         } else if (arraytype == "string") {
-            while (i <= n) {
-                m[i] = "Array's element #" + i + " = String " + "#" + i;
+            while (i < n) {
+                m[i] = "Array's element #" + (i + 1) + " = String " + "#" + (i + 1);
                 System.out.println(m[i]);
                 ++i;
-                ++j;
-
             }
-
-
         } else {
             System.out.println("Unrecognized array type");
         }
-
-
-
 
     }
 }
