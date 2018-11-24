@@ -15,20 +15,40 @@ Given an array of integers, return indices of the two numbers such that they add
         Because nums[0] + nums[1] = 2 + 7 = 9,
         return [0, 1].*/
 
+import javax.xml.bind.SchemaOutputResolver;
+
 public class ArraysActions {
 
     public static void main(String[] args) {
 
 
+
+
             int n = 100;
             int i=0, j = 0;
-            int nums[] = new int[n];
-            while (i <= (n-1)){
-                nums[i] = ++j;
-                System.out.println("Array's element #" + (i + 1) + " = " + nums[i]);
-                ++i;
+            String[] m = new String[n];
+            int[] nums = new int[n];
+
+            private static void arraySringOrInt(){
+                String arraytype = "";
+                if (arraytype == "integer") {
+                    while (i <= (n - 1)) {
+                        nums[i] = ++j;
+                        System.out.println("Array's element #" + (i + 1) + " = " + nums[i]);
+                        ++i;
+                    }
+                }
+                else if (arraytype == "string") {
+                    while (i <= (n - 1)) {
+                        nums[i] = ++j;
+                        System.out.println("Array's element #" + (i + 1) + " = " + nums[i]);
+                        ++i;
+                    }
+                    System.out.println("Unrecognized array type");
+                }
 
             }
+
 
 
     }
