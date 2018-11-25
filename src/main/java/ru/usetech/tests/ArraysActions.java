@@ -15,13 +15,24 @@ Given an array of integers, return indices of the two numbers such that they add
         Because nums[0] + nums[1] = 2 + 7 = 9,
         return [0, 1].*/
 
-import javax.xml.bind.SchemaOutputResolver;
-
 public class ArraysActions {
     public static void main (String args[]){
-        arraySringOrInt("string");
+        /*arraySringOrInt("string");
         arraySringOrInt("integer");
-        arraySringOrInt("string1");
+        arraySringOrInt("string1");*/
+
+        Box catBox = new Box();
+        catBox.setDim(400, 200, 250);
+        int vol = catBox.getVolume();
+
+        System.out.println("Объём ящика: " + vol);
+
+    }
+
+
+
+    private static void arrayHelper (){
+
 
     }
 
