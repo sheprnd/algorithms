@@ -17,9 +17,9 @@ Given an array of integers, return indices of the two numbers such that they add
 
 public class ArraysActions {
     public static void main (String args[]){
-        /*arraySringOrInt("string");
-        arraySringOrInt("integer");
-        arraySringOrInt("string1");*/
+        arraySringOrInt("string", 10);
+        arraySringOrInt("integer", 15);
+        arraySringOrInt("string1", 1000);
 
         Box catBox = new Box();
         catBox.setDim(400, 200, 250);
@@ -30,14 +30,7 @@ public class ArraysActions {
     }
 
 
-
-    private static void arrayHelper (){
-
-
-    }
-
-    public static void arraySringOrInt(String arraytype) {
-        int n = 5;
+    public static void arraySringOrInt(String arraytype, int n) {
         int i = 0;
         String[] m = new String[n];
         int[] nums = new int[n];
