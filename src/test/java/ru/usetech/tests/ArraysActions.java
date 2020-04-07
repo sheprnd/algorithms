@@ -1,8 +1,7 @@
 package ru.usetech.tests;
 
 
-/*
-Here is an problem needs to resolve
+/*Here is an problem needs to resolve
 
 Given an array of integers, return indices of the two numbers such that they add up to a specific target.
 
@@ -13,9 +12,9 @@ Given an array of integers, return indices of the two numbers such that they add
         Given nums = [2, 7, 11, 15], target = 9,
 
         Because nums[0] + nums[1] = 2 + 7 = 9,
-        return [0, 1].*/
+        return [0, 1].
 
-import javax.xml.bind.SchemaOutputResolver;
+import javax.xml.bind.SchemaOutputResolver;*/
 
 public class ArraysActions {
     public static void main (String args[]){
