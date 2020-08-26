@@ -9,7 +9,7 @@ public class IteratorExampleSet {
 
     public static void main(String[] args)
     {
-        Set<java.lang.String> set = new HashSet<String>();
+        Set<java.lang.String> set = new HashSet<>();
         set.add("Mama");
         set.add("Mila");
         set.add("Ramu");

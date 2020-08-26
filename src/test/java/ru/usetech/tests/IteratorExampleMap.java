@@ -9,7 +9,7 @@ public class IteratorExampleMap {
     public static void main(String[] args) {
 
 
-        HashMap<String, String> map = new HashMap<String, String>();
+        HashMap<String, String> map = new HashMap<>();
         map.put("first", "Mama");
         map.put("second", "Myla");
         map.put("third", "Ramu");
